@@ -1,0 +1,24 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_greet:
+  - text: Hey Gaurav! How are you?
+  utter_cheer_up:
+  - text: 'hey Gaurav, be positive!, Everything would be alright, have patience!:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great Gaurav, carry on!
+  utter_goodbye:
+  - text: Bye!!!
+  utter_iamabot:
+  - text: I am a bot, developed by Gaurav Sahani!
